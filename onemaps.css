@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Impact;
+    box-sizing: border-box;
+  
+  }
+  
+  
+  body{
+    
+    background-image: url(./shiny-golden-particles-with-light-streak_1017-32797.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+  
+  }
+  header{
+    position: relative;
+    padding: 0 2rem;
+  
+  }
+  
+  li{
+  list-style: none;  
+  
+  }
+  
+  
+  a{
+    text-decoration:none;
+    color:ivory;
+    font-size: 1rem;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+  }
+  a:hover{
+    color:gold;
+  
+  
+  }
+  .navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  
+  }
+  
+  .navbar .title a {
+    font-size: 2rem;
+    font-weight: lighter;
+  
+  }
+  
+  .navbar .link{
+    display:inline-flex;
+    gap: 2rem;
+  
+  }
+  
+  .navbar .toggle{
+    color:ivory;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    
+
+  }
+  @media(max-width:992px){
+  .navbar  .link{
+    display: none;
+  } 
+  
+  .navbar .toggle{
+    display: block;
+  }
+  }
+  
+  .dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background:rgba(255,255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+  
+  }
+  .dropdown_menu.open{
+    height: 240px;
+  }
+  .dropdown_menu li{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .dropdown_menu{
+    display: block;
+  }
+  
+  @media(max-width:576){
+  
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+  
+    }
+ 
+  }
+  .container{
+    margin: 100px auto;
+    width: 75%;
+    color: ivory;
+  }
+ 
+ .container> img{
+    max-width: 500px;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid gold; 
+    margin-right: 20px;
+    width: 300px;
+    
+
+ }
+ .text h2{
+    font-size: 50px;
+    padding: 5px;
+ }
+ .text p{
+    
+    font-size: 15px;
+
+ }
+ .blueprint > h1{
+    text-align: center;
+    color: ivory;
+    text-decoration: underline gold;
+    font-size: 50px;
+    padding-top: 5%;
+
+ }
+ .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.column  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5px;
+
+    
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./onemaps.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+           <div class="title"><a href="./rainbow.html"> Rainbow Six Siege Guide</a></div>
+          
+                <ul class="link">
+                    <li><a href="#ranked">How Does Ranked Work</a></li>
+                    <li><a href="./rainbowmaps.html">Maps in Ranked</a></li>
+                    <li> <a href="#operators">Operators in Ranked </a></li>
+            
+            
+                </ul>
+                <div class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+         
+        </div>
+    
+        <div class="dropdown_menu ">
+            <li><a href="#ranked">How Does Ranked Work</a></li>
+            <li><a href="#maps">Maps in Ranked</a></li>
+            <li> <a href="#operators">Operators in Ranked </a></li> 
+    
+        </div>
+      
+    
+    </header>
+   
+       <div class="container">
+        <img src="chalet3.jpeg" alt="">
+        <div class="text">
+            <h2> Chalet</h2> <hr>
+            <p> Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Dolorem sit, ipsam
+                  necessitatibus, repellat quas neque 
+                  nihil vel aspernatur corrupti reiciendis,
+                   qui quibusdam. Corrupti soluta laboriosam
+                   quos minus quam repellat, eos, tenetur 
+                   unde vero possimus alias commodi. Ipsam eligendi ipsum reiciendis 
+                   consequuntur nisi mollitia non laudantium
+                    nihil quia, natus recusandae rem voluptates
+                     voluptatibus 
+                   expedita eaque minima. 
+                Nihil porro sint maiores vero!</p>
+        </div>
+       </div>
+
+       <div class="blueprint">
+        <h1> Blueprint</h1>
+        <div class="row">
+            <div class="column">
+                <img src="./ch-basement.webp" width="100%" alt="Chalet 3">
+            </div>
+            <div class="column">
+                <img src="./ch-ground.webp" width="100%" alt="Chalet 3">
+
+            </div>
+            <div class="column">
+                <img src="./ch-1fl.webp" width="100%" alt="Chalet 3">
+
+            </div>
+            <div class="column">
+                <img src="./ch-roof.webp" width="100%" alt="Chalet 3">
+
+            </div>
+
+        </div>
+
+       </div>
+    
+    <script>
+        const toggle = document.querySelector(".toggle")
+    const toggleIcon = document.querySelector(".toggle i")
+    const dropdown_menu = document.querySelector(".dropdown_menu")
+
+    toggle.onclick = function(){
+        dropdown_menu.classList.toggle('open')
+        const isOpen = dropdown_menu.classList.contains('open')
+
+        toggleIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+
+    </script>
+    
+</body>
+</html>

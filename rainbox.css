@@ -1,0 +1,183 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:Impact;
+  box-sizing: border-box;
+    
+  
+  }
+  
+  
+  body{
+    background-image: url(rainbow-six-siege-attackers-myc4lrmdkyh2ovko.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+  
+  }
+  header{
+    position: relative;
+    padding: 0 2rem;
+  
+  }
+  
+  li{
+  list-style: none;  
+  
+  }
+  
+  
+  a{
+    text-decoration:none;
+    color:ivory;
+    font-size: 1rem;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+  }
+  a:hover{
+    color:gold;
+  
+  
+  }
+  .navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  
+  }
+  
+  .navbar .title a {
+    font-size: 2rem;
+    font-weight: lighter;
+  
+  }
+  
+  .navbar .link{
+    display:inline-flex;
+    gap: 2rem;
+  
+  }
+  
+  .navbar .toggle{
+    color:ivory;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    
+
+  }
+  @media(max-width:992px){
+  .navbar  .link{
+    display: none;
+  } 
+  
+  .navbar .toggle{
+    display: block;
+  }
+  }
+  
+  .dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background:rgba(255,255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+  
+  }
+  .dropdown_menu.open{
+    height: 240px;
+  }
+  .dropdown_menu li{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .dropdown_menu{
+    display: block;
+  }
+  
+  @media(max-width:576){
+  
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+  
+    }
+  
+  }
+  section#hero{
+    
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+        color: ivory;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+        font-size: 36px; 
+        font-weight: bold; 
+        letter-spacing: 2px; 
+        margin: 20px;
+        border-radius: 10px; 
+      
+    
+  }
+  #content{
+    display: inline-block;
+    color: ivory;
+   
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    letter-spacing: 5px; 
+    margin: 20px;
+    border-radius: 10px; 
+    background: rgba(50, 50, 50, 0.5); 
+   
+  }
+
+  #content p a {
+    font-size: 1.5rem;
+    color: ivory;
+    text-decoration: underline gold;
+    transition: text-decoration 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+  }
+  #content p a:hover {
+  color: gold;
+
+  }
+
+  #content p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+  }
+  
+  
+
+  

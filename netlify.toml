@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/*"
-to = "/rainbowmaps.html"
-status = 200
+  from = "/"
+  to = "/pages/rainbowmaps.html"
+  status = 200

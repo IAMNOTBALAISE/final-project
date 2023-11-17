@@ -146,3 +146,28 @@
        margin: -30px;
 
      }
+
+     #first h2{
+        
+        text-align: center;
+        color: ivory;
+        text-decoration: underline gold;
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 3%;
+     }
+     #first p {
+
+        margin-top: 2%;
+        color: ivory;
+        font-size: 20px;
+        
+        text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 1.5;
+     }

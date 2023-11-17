@@ -171,4 +171,25 @@
         padding-right: 5%;
         line-height: 1.5;
      }
-     
+     #attackers {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+  
+      .attacker-box {
+        width: calc(20% - 20px); 
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+      }
+  
+      .attacker-box img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }

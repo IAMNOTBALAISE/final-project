@@ -140,4 +140,9 @@
         margin: 20px;
         border-radius: 10px; 
     }
-    
+    #first{
+        padding-top:auto;
+        text-align: center;
+       margin: -30px;
+
+     }

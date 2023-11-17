@@ -153,7 +153,7 @@
         color: ivory;
         text-decoration: underline gold;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 50px;
         padding-left: 3%;
      }
      #first p {
@@ -171,25 +171,50 @@
         padding-right: 5%;
         line-height: 1.5;
      }
-     #attackers {
+     #attackers h2{
+        text-align: center;
+        color: ivory;
+        font-size: 30px;
+        
+     }
+     #attackers h1{
+        text-align: center;
+        color: ivory;
+     }
+     .row {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        margin-top: 10px;
         flex-wrap: wrap;
       }
   
-      .attacker-box {
-        width: calc(20% - 20px); 
+      .column {
+         
         margin-bottom: 20px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
+        flex: 0 0 30%;
       }
   
-      .attacker-box img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        margin-right: 10px;
+      .box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex; 
+        align-items: center;
       }
+    
+      .row .column:last-child {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .row .column:nth-child(4) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (max-width: 768px) {
+        .column {
+          flex: 0 0 100%; 
+        }
+    }
+        
+     

@@ -171,3 +171,30 @@
         padding-right: 5%;
         line-height: 1.5;
      }
+     .attackers-section {
+        background-color: ivory;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        overflow-x: auto; /
+      }
+  
+      .attacker {
+        margin-right: 20px;
+        padding: 10px;
+        border: 1px solid ivory;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+  
+      .attacker img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My website</title>
+    
+     
+  <link rel="stylesheet" href="/assets/index-4cd465a5.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+       <div class="title"><a href="/index.html"> Rainbow Six Siege Guide</a></div>
+      
+            <ul class="link">
+                <li><a href="/ranksystem.html">How Does Ranked Work</a></li>
+                <li><a href="/rainbowmaps.html">Maps in Ranked</a></li>
+                <li> <a href="/rankop.html">Operators in Ranked </a></li>
+        
+        
+            </ul>
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+     
+    </div>
+
+    <div class="dropdown_menu ">
+        <li><a href="/ranksystem.html">How Does Ranked Work</a></li>
+        <li><a href="/rainbowmaps.html">Maps in Ranked</a></li>
+        <li> <a href="/rankop.html">Operators in Ranked </a></li>
+
+    </div>
+  
+
+</header>
+<main>
+   
+    <section id="hero">
+       <h1>Welcome to Rainbow Six Siege Guide</h1> 
+
+       <br> 
+
+      
+       
+    </section>
+    <div id ="content">
+    <p> Have you ever been interested to reach another level in Rainbow Six Siege? Tired to get kill by enemies
+         to easily and carry far more often by your teammates in ranked. Here is the perfect and concise guide 
+         to improve yourself in the competitive mode of Rainbow Six Siege. It will teach you all the approaches and 
+         information’s to be better such as giving you a guide about <a href="/ranksystem.html">how the ranked system is working</a>, providing 
+         <a href="/rainbowmaps.html"> characteristics  about the maps playable</a>  to be 
+        familiar with them, which <a href="/rankop.html"> agents to pick</a> and how to organize a perfect lineup with your teammates. </p>
+     
+        
+    </div>
+
+</main>
+
+<script>
+    const toggle = document.querySelector(".toggle")
+    const toggleIcon = document.querySelector(".toggle i")
+    const dropdown_menu = document.querySelector(".dropdown_menu")
+
+    toggle.onclick = function(){
+        dropdown_menu.classList.toggle('open')
+        const isOpen = dropdown_menu.classList.contains('open')
+
+        toggleIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+</script>
+
+
+
+
+</body>
+
+</html>

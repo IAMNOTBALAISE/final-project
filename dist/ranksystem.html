@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="/ranksys.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="title"><a href="/index.html"> Rainbow Six Siege Guide</a></div>
+       
+             <ul class="link">
+                 <li><a href="/ranksystem.html">How Does Ranked Work</a></li>
+                 <li><a href="/rainbowmaps.html">Maps in Ranked</a></li>
+                 <li> <a href="/rankop.html">Operators in Ranked </a></li>
+         
+         
+             </ul>
+             <div class="toggle">
+                 <i class="fa-solid fa-bars"></i>
+             </div>
+      
+     </div>
+ 
+     <div class="dropdown_menu ">
+         <li><a href="/ranksystem.html">How Does Ranked Work</a></li>
+         <li><a href="/rainbowmaps.html">Maps in Ranked</a></li>
+         <li> <a href="/rankop.html">Operators in Ranked </a></li>
+ 
+     </div>
+   
+ 
+ </header>
+ <main>
+    <section id="hero">
+       <h1>How is ranked working?</h1>
+
+       
+
+    </section>
+
+    <section id="first">
+      <h2>The basis </h2>
+
+      <p> In Rainbow Six Siege ranked, the new system which is called rank 2.0 elaborate a complex system so let me clue you in with the basis.
+         First, to participate in ranked, you have to be level 50 otherwise you will not be permiited to access this game mode.In this way it will prepare
+        beginner to understand the game mecanics since it takes at least 2 months to reach level 50.  </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2> Rainbow Six Siege Ranks</h2>
+
+        <p> When you will reach level 50 and that rank is now available for you. You will need to win and avoid losing to reach better Ranks.
+            More the wins collected more the rank will be higher, look at this table to see the ranks.
+        </p>
+
+        <table>
+            <tr>
+                <th class="rank-column">Rank</th>
+                <th class="level-column">Levels</th>
+                <th class="image-column">Image</th>
+            </tr>
+
+            <tr>
+                <td>Copper (Worst Rank)</td>
+                <td>V, IV, III, II, I</td>
+                <td><img src="/rank-copper.png" alt="Copper Image"></td>
+            </tr>
+
+
+            <tr>
+                <td>Bronze</td>
+                <td>V, IV, III, II, I</td>
+                <td><img src="/rank-bronze.png" alt="Bronze Image"></td>
+            </tr>
+
+            <tr>
+                <td>Silver</td>
+
+                <td>V, IV, III, II, I</td>
+                <td><img src="/rank-silver.png" alt="Silver Image"></td>
+            </tr>
+
+            <tr>
+                <td>Gold</td>
+                <td>V, IV, III, II, I</td>
+                <td><img src="/rank-gold.png" alt="Gold Image"></td>
+            </tr>
+
+            <tr>
+                <td>Platinum</td>
+                <td>V, IV, III, II, I</td>
+                <td><img src="/platinum-rank.jpeg" alt="Platinum Image"></td>
+            </tr>
+
+            <tr>
+                <td>Emerald</td>
+                <td>V, IV, III, II, I</td>
+                <td><img src="/rank-emerald.png" alt="Emerald Image"></td>
+            </tr>
+
+            <tr>
+                <td>Diamond</td>
+                <td>V, IV, III, II, I</td>
+                <td><img src="/diamond-rank.jpeg" alt="Diamond Image"></td>
+            </tr>
+            
+            <tr>
+                <td>Champion (Best Rank)</td>
+                <td>Only one level</td>
+                <td><img src="/champion rank.png" alt="Champion Image"></td>
+            </tr>
+        </table>
+    
+
+    </section>
+
+ </main>
+ <script>
+    const toggle = document.querySelector(".toggle")
+    const toggleIcon = document.querySelector(".toggle i")
+    const dropdown_menu = document.querySelector(".dropdown_menu")
+
+    toggle.onclick = function(){
+        dropdown_menu.classList.toggle('open')
+        const isOpen = dropdown_menu.classList.contains('open')
+
+        toggleIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+</script>
+
+</body>
+</html>
